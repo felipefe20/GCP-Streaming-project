@@ -7,7 +7,7 @@ from random import randint
 
 # TODO(developer)
 PROJECT_ID = "resounding-hope-414923"
-TOPIC_ID = "bike-sharing-trips-felipe"
+TOPIC_ID = "bike-sharing-trips-topic-felipe"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(PROJECT_ID, TOPIC_ID)
