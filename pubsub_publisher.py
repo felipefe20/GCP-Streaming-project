@@ -6,8 +6,8 @@ from google.cloud import pubsub_v1
 from random import randint
 
 # TODO(developer)
-PROJECT_ID = "gcp-streaming-project-felipe"
-TOPIC_ID = "bike-sharing-trips-felipe-topic"
+PROJECT_ID = "resounding-hope-414923"
+TOPIC_ID = "create bike-sharing-trips-felipe"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(PROJECT_ID, TOPIC_ID)
