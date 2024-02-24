@@ -5,8 +5,8 @@ import logging
 
 from apache_beam.options.pipeline_options import PipelineOptions
 
-INPUT_SUBSCRIPTION= 'projects/packt-data-eng-on-gcp/subscriptions/bike-sharing-trips-subs-1'
-OUTPUT_TABLE = 'packt-data-eng-on-gcp:raw_bikesharing.bike_trips_streaming'
+INPUT_SUBSCRIPTION= 'projects/resounding-hope-414923/subscriptions/bike-sharing-trips-subs-felipe'
+OUTPUT_TABLE = 'resounding-hope-414923:raw_bikesharing_felipe.bike_trips_streaming_felipe'
 
 parser = argparse.ArgumentParser()
 args, beam_args = parser.parse_known_args()
